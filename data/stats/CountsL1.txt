@@ -1,0 +1,10 @@
+Big10		16,849,967		20 Mb
+Reuters		10,423,070		
+XMark1Gb	1,728,625
+XMark500	726,061
+XMark100	172,227
+Fin'l Times	12,018,580
+LA Times	7,310,538
+DBLP		261,079
+SwissProt	80,852
+Shakespeare	27,836

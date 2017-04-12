@@ -1,0 +1,14 @@
+These are the Java runtime commands to produce a fully indexed source from an
+XML data source (in common information retrieval terminology, this would be a
+document collection, which is wrapped in a single XML root element).
+All Java programs take their configuration from configuration file specified
+('../idxr.cfg' in this example; the referenced file is included in the folder
+that this file presides in), identifying the group of parameters to be used by
+the name of a particular configuration ('Micro' in this case).
+
+java -Xmx256m idxr.XmlEncoder Micro etc/idxr.cfg      // Compress XML
+java -Xmx256m idxr.Indexer Micro etc/idxr.cfg         // Derive stats. and upd. XDG
+java -Xmx256m idxr.PhysAddrIndexer Micro etc/idxr.cfg // Constr. node#->counter idx
+java -Xmx256m idxr.DfCountIndexer Micro etc/idxr.cfg  // Constr. node#->pos# idx
+java -Xmx256m idxr.PathIndexer Micro etc/idxr.cfg
+java -Xmx256m idxr.PidIndexer Micro etc/idxr.cfg

@@ -1,0 +1,119 @@
+<?xml version="1.0" standalone="yes"?>
+
+<MICRO_COLLECTION>
+<ARTICLE>
+   <AUTHORS>
+      <AUTHOR> Lewis, David D. </AUTHOR>
+      <AUTHOR> Sparck Jones, Karen </AUTHOR>
+   </AUTHORS>
+   <TITLE> Natural Language Processing for Information Retrieval </TITLE>
+   <YEAR> 1996 </YEAR>
+   <JOURNAL> Communications of the ACM </JOURNAL>
+   <VOLUME number="1"> 39 </VOLUME>
+   <PAGES from="92" to="101" />
+   <PAPER>
+      <ABSTRACT>
+         New demands on information retrieval provide
+         opportunities for natural language processing \ldots
+      </ABSTRACT>
+      <BODY>
+         The need for automatic <em>text retrieval</em> (TR), also known
+         as <em>document retrieval</em> (DR) has caught the attention
+         of researchers in natural language processing (NLP). This article
+         \ldots
+         <SECTION>
+            <HEADING>Document Retrieval</HEADING>
+            <TEXT cite="FLG87">
+               Within IR, DR is an important and proper task with \ldots
+            </TEXT>
+         </SECTION>
+         <SECTION>
+            <HEADING>Past Research</HEADING>
+            <TEXT cite="Spa81 Wil88">
+
+             ..to be finished later...
+	     </TEXT>
+	 </SECTION>
+      </BODY>
+   </PAPER>
+</ARTICLE>
+
+<ARTICLE id="MK60">
+   <AUTHORS> 
+      <AUTHOR> Maron, M.E. </AUTHOR>
+      <AUTHOR> Kuhns, J.L. </AUTHOR>
+   </AUTHORS>
+   <TITLE> On Relevance, Probabilistic Indexing and Information Retrieval </TITLE>
+   <YEAR> 1960 </YEAR>
+   <MONTH> jul </MONTH>
+   <JOURNAL> Journal  of the ACM </JOURNAL>
+   <VOLUME number="3"> 7 </VOLUME>
+   <PAGES from="216" to="244"/>
+   <PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </PAPER>
+</ARTICLE>
+
+<ARTICLE id="Coo88">
+   <AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS>
+   <TITLE> Getting Beyond Boole </TITLE>
+   <YEAR> 1988 </YEAR>
+   <JOURNAL> Information Processing and Management </JOURNAL>
+   <VOLUME> 24 </VOLUME>
+   <PAGES from="243" to="248"/>
+   <PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </PAPER>
+</ARTICLE>
+
+<ARTICLE id="Coo95">
+   <AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS>
+   <TITLE> Some Inconsistencies and Misidentified Modeling Assumptions
+           in Probabilistic Information Retrieval </TITLE>
+   <YEAR> 1995 </YEAR>
+   <JOURNAL> Transactions on Officie Information Systems </JOURNAL>
+   <VOLUME number="1"> 13 </VOLUME>
+   <PAGES from="100" to="111"/>
+   <PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </PAPER>
+</ARTICLE>
+
+<ARTICLE id="BN96">
+   <AUTHORS>
+      <AUTHOR> Baeza-Yates, R. </AUTHOR>
+      <AUTHOR> Novarro, G. </AUTHOR>
+   </AUTHORS>
+   <TITLE> Integrating Contents and Structure in Text Retrieval </TITLE>
+   <YEAR> 1996 </YEAR>
+   <JOURNAL> SIGMOD Record </JOURNAL>
+   <VOLUME number="1"> 25 </VOLUME>
+   <PAGES from="67" to="79"/>
+   <PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </PAPER>
+</ARTICLE>
+
+<ARTICLE id="Cro95">
+   <AUTHORS>
+      <AUTHOR> Croft, W. Bruce </AUTHOR>
+   </AUTHORS>
+   <TITLE> "What Do People Want From Information Retrieval?" </TITLE>
+   <YEAR> 1995 </YEAR>
+   <MONTH> nov </MONTH>
+   <JOURNAL> d-lib Magazine </JOURNAL>
+   <PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </PAPER>
+</ARTICLE>
+
+</MICRO_COLLECTION>

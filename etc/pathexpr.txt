@@ -1,0 +1,30 @@
+Grammar for Experimental Path Expressions
+------------------------------------------
+
+Main grammar part:
+
+PathExpr     ::=  '/'  |  SelectPath
+SelectPath   ::=  AtomicPath  |  AtomicPath Path
+Path         ::=  AtomicPath  |  AtomicPath Path
+AtomicPath   ::=  PathModif CondLabel
+PathModif    ::=  '/'  |  '//'
+CondLabel    ::=  Label  |  Label '[' Condition ']'
+Condition    ::=  PathCond  |  TermCond  | PosCond
+PathCond     ::=  '.' Path
+TermCond     ::=  ChildTermCond  |  DescTermCond
+ChildTermCond::=  ''' Term '''  |  '"' TermSeq '"'
+DescTermCond ::=  '[' ''' Term ''' ']'  |  '[' ''' TermSeq ''' ']'
+TermSeq      ::=  Term  |  Term TermSeq
+PosCond      ::=  Number  |  Number '-' Number
+
+
+Small definitions:
+
+Label        ::=  Letter  |  '*'  |  Letter IdLabel Letter
+IdLabel      ::=  <epsilon>  |  IdLetter  |  IdLetter IdLabel
+IdLetter     ::=  Letter  | '_'
+Term         ::=  Word  |  Number  |  Word Number
+Word         ::=  Letter  | Letter Word
+Number       ::=  Digit  |  Digit Number
+Letter       ::=  'a'  |  ...  |  'z'  |  'A'  |  ...  |  'Z'
+Digit        ::=  '0'  |  '1'  |  ...  |  '9'

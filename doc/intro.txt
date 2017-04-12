@@ -1,0 +1,54 @@
+Functionality
+
+In general, described in detail in the Ph.D. thesis
+
+Jan-Marco Bremer. Next-Generation Information Retrieval: Integrating Document and
+Data Retrieval Based on XML. Dept. of Computer Science, University of California
+at Davis, 2003
+
+Found most recently at 
+http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=437F9624C4DE13F4DF0B1C6F4BBAE351?doi=10.1.1.9.5942&rep=rep1&type=pdf
+
+Chapter 7 of this thesis describes the software and its underlying architecture
+in some detail.
+
+
+Input: a single XML data source (for testing, many of the data sources are
+	derived form publicly XML document collections
+Results: a Huffmann-encoded, highly compressed XML source;
+	a set of (index-sequential) index file, the A-, P-, T- and who knows what
+	indexes (Chapter 7 knows more about this)
+
+
+
+Application
+
+- Sequence of runtime commands to get from XML data source (document collection)
+stored in a single XML file and wrapped by a single root element
+- Central configuration file with source-specific configurations and a shared
+configuration of internal runtime parameters, and file and folder names 
+
+runtime commands
+
+<see document steps.txt in the same directory>
+
+
+configuration file
+
+(...)
+<see sample 'idxr.cfg' in directory /etc>
+
+
+
+Notes
+
+I am missing my XML data source CDs, which are in storage boxes somewhere. Need
+to pick those up to run full circle tests, whether the code still does what it's
+supposed to be.
+
+There's no ant file or other make file included yet. So, the recommended way to
+use the code right now is to set up an Eclipse project
+
+
+J. Marco Bremer
+2008-11-27

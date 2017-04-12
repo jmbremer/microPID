@@ -1,0 +1,17 @@
+(1) % P-index entries stored
+(2) % Single entry, though total higher
+(3) Absolute single entry, though total higher
+(4) # of lists (= # of nodes)
+(5) Total entries
+
+
+	1	2	3	4	5
+	
+Big10	30.5	17.2	163	945	16235093
+Reuters	26.0	38.5	10	26	37864285
+XMark	26.3	17.9	98	547	20435478
+FTimes	7.0	37.5	6	16	2846553	
+LATimes	19.3	10	7	70	5472096
+DBLP	29.9	29.2	42	144	3736341
+SwissPr	44.3	1.9	5	263	5166723
+Shake	36.7	22.8	13	57	179627

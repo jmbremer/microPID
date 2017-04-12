@@ -1,0 +1,42 @@
+Loading terms from '/aramis/Data/Source/Micro/terms'...134..done.
+Printing all occurences of term 4, 'and,'...
+Loading data guide from file '/aramis/Data/Source/Micro/guide.tree'...done.
+Loading data guide from file '/aramis/Data/Source/Micro/guide.tree'...done.
+Loading data guide from file '/aramis/Data/Source/Micro/guide.tree'...done.
+Loading tokens from base file '/aramis/Data/Source/Micro/tokens'...179...done.
+
+Getting lable paths...
+	(6)	 /MICRO_COLLECTION/ARTICLE/TITLE
+	(8)	 /MICRO_COLLECTION/ARTICLE/JOURNAL
+	(20)	 /MICRO_COLLECTION/ARTICLE/PAPER/BODY/SECTION/TEXT
+Term 'and' occurs under the following label paths:
+   /MICRO_COLLECTION/ARTICLE/TITLE
+   /MICRO_COLLECTION/ARTICLE/JOURNAL
+   /MICRO_COLLECTION/ARTICLE/PAPER/BODY/SECTION/TEXT
+[3 paths]
+
+________Pos#'s for Term# 4_______
+
+_____Node# 6 (3)  /MICRO_COLLECTION/ARTICLE/TITLE _____
+
+<TITLE> On Relevance, Probabilistic Indexing **and** Information Retrieval </TITLE>
+
+<TITLE> Some Inconsistencies **and** Misidentified Modeling Assumptions
+           in Probabilistic Information Retrieval </TITLE>
+
+<TITLE> Integrating Contents **and** Structure in Text Retrieval </TITLE>
+
+_____Node# 8 (1)  /MICRO_COLLECTION/ARTICLE/JOURNAL _____
+
+<JOURNAL> Information Processing **and** Management </JOURNAL>
+
+_____Node# 20 (1)  /MICRO_COLLECTION/ARTICLE/PAPER/BODY/SECTION/TEXT _____
+
+<TEXT cite="FLG87">
+               Within IR, DR is an important **and** proper task with \ldots
+            </TEXT>
+
+
+5 occurences reported,
+5 actual occurences.
+

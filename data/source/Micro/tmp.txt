@@ -1,0 +1,365 @@
+Loading data guide from file '/aramis/Data/Source/Micro/guide.tree'...done.
+Loading data guide from file '/aramis/Data/Source/Micro/guide.tree'...done.
+Loading tokens from base file '/aramis/Data/Source/Micro/tokens'...179...done.
+
+________(1) MICRO_COLLECTION________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=1)
+<MICRO_COLLECTION>
+<ARTICLE>
+   <AUTHORS>
+      <AUTHOR> Lewis, David D. </AUT
+
+
+
+________(2) ARTICLE________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<ARTICLE>
+   <AUTHORS>
+      <AUTHOR> Lewis, David D. </AUTHOR>
+      <AUTHOR>
+
+<ARTICLE
+   <AUTHORS> 
+      <AUTHOR> Maron, M.E. </AUTHOR>
+      <AUTHOR> Kuh
+
+<ARTICLE
+   <AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS
+
+<ARTICLE
+   <AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS
+
+<ARTICLE
+   <AUTHORS>
+      <AUTHOR> Baeza-Yates, R. </AUTHOR>
+      <AUTHOR> 
+
+<ARTICLE
+   <AUTHORS>
+      <AUTHOR> Croft, W. Bruce </AUTHOR>
+   </AUTHORS>
+ 
+
+
+
+________(3) id________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=5)
+@id="MK60"
+
+@id="Coo88"
+
+@id="Coo95"
+
+@id="BN96"
+
+@id="Cro95"
+
+
+
+________(4) AUTHORS________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<AUTHORS>
+      <AUTHOR> Lewis, David D. </AUTHOR>
+      <AUTHOR> Sparck Jones
+
+<AUTHORS> 
+      <AUTHOR> Maron, M.E. </AUTHOR>
+      <AUTHOR> Kuhns, J.L. </A
+
+<AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS>
+
+<AUTHORS>
+      <AUTHOR> Cooper, William S. </AUTHOR>
+   </AUTHORS>
+
+<AUTHORS>
+      <AUTHOR> Baeza-Yates, R. </AUTHOR>
+      <AUTHOR> Novarro, G. 
+
+<AUTHORS>
+      <AUTHOR> Croft, W. Bruce </AUTHOR>
+   </AUTHORS>
+
+
+
+________(5) AUTHOR________
+  (Star pos. 0, max. elements 2147483647, stored=3, totalNodes=9)
+<AUTHOR> Lewis, David D. </AUTHOR>
+
+<AUTHOR> Sparck Jones, Karen </AUTHOR>
+
+<AUTHOR> Maron, M.E. </AUTHOR>
+
+<AUTHOR> Kuhns, J.L. </AUTHOR>
+
+<AUTHOR> Cooper, William S. </AUTHOR>
+
+<AUTHOR> Cooper, William S. </AUTHOR>
+
+<AUTHOR> Baeza-Yates, R. </AUTHOR>
+
+<AUTHOR> Novarro, G. </AUTHOR>
+
+<AUTHOR> Croft, W. Bruce </AUTHOR>
+
+
+
+________(6) TITLE________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<TITLE> Natural Language Processing for Information Retrieval </TITLE>
+
+<TITLE> On Relevance, Probabilistic Indexing and Information Retrieval </TITLE
+
+<TITLE> Getting Beyond Boole </TITLE>
+
+<TITLE> Some Inconsistencies and Misidentified Modeling Assumptions
+          
+
+<TITLE> Integrating Contents and Structure in Text Retrieval </TITLE>
+
+<TITLE> "What Do People Want From Information Retrieval?" </TITLE>
+
+
+
+________(7) YEAR________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<YEAR> 1996 </YEAR>
+
+<YEAR> 1960 </YEAR>
+
+<YEAR> 1988 </YEAR>
+
+<YEAR> 1995 </YEAR>
+
+<YEAR> 1996 </YEAR>
+
+<YEAR> 1995 </YEAR>
+
+
+
+________(8) JOURNAL________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<JOURNAL> Communications of the ACM </JOURNAL>
+
+<JOURNAL> Journal  of the ACM </JOURNAL>
+
+<JOURNAL> Information Processing and Management </JOURNAL>
+
+<JOURNAL> Transactions on Officie Information Systems </JOURNAL>
+
+<JOURNAL> SIGMOD Record </JOURNAL>
+
+<JOURNAL> d-lib Magazine </JOURNAL>
+
+
+
+________(9) VOLUME________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=5)
+<VOLUME 39 </VOLUME>
+
+<VOLUME 7 </VOLUME>
+
+<VOLUME> 24 </VOLUME>
+
+<VOLUME 13 </VOLUME>
+
+<VOLUME 25 </VOLUME>
+
+
+
+________(10) number________
+  (Star pos. 0, max. elements 2147483647, stored=2, totalNodes=4)
+@number="1"
+
+@number="3"
+
+@number="1"
+
+@number="1"
+
+
+
+________(11) PAGES________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=5)
+<PAGES</PAGES>
+
+<PAGES</PAGES>
+
+<PAGES</PAGES>
+
+<PAGES</PAGES>
+
+<PAGES</PAGES>
+
+
+
+________(12) from________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=5)
+
+Attribute (12) with equivalent parent (11), taking parents addresses...
+@from="92"
+
+@from="216"
+
+@from="243"
+
+@from="100"
+
+@from="67"
+
+
+
+________(13) to________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=5)
+
+Attribute (13) with equivalent parent (11), taking parents addresses...
+@to="101"
+
+@to="244"
+
+@to="248"
+
+@to="111"
+
+@to="79"
+
+
+
+________(14) PAPER________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<PAPER>
+      <ABSTRACT>
+         New demands on information retrieval provide
+
+<PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </P
+
+<PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </P
+
+<PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </P
+
+<PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </P
+
+<PAPER>
+      <ABSTRACT> \ldots </ABSTRACT>
+      <BODY> \ldots </BODY>
+   </P
+
+
+
+________(15) ABSTRACT________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<ABSTRACT>
+         New demands on information retrieval provide
+         oppo
+
+<ABSTRACT> \ldots </ABSTRACT>
+
+<ABSTRACT> \ldots </ABSTRACT>
+
+<ABSTRACT> \ldots </ABSTRACT>
+
+<ABSTRACT> \ldots </ABSTRACT>
+
+<ABSTRACT> \ldots </ABSTRACT>
+
+
+
+________(16) BODY________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=6)
+<BODY>
+         The need for automatic <EM>text retrieval</EM> (TR), also know
+
+<BODY> \ldots </BODY>
+
+<BODY> \ldots </BODY>
+
+<BODY> \ldots </BODY>
+
+<BODY> \ldots </BODY>
+
+<BODY> \ldots </BODY>
+
+
+
+________(17) EM________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=2)
+<EM>text retrieval</EM>
+
+<EM>document retrieval</EM>
+
+
+
+________(18) SECTION________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=2)
+<SECTION>
+            <HEADING>Document Retrieval</HEADING>
+            <TEXT
+
+
+<SECTION>
+            <HEADING>Past Research</HEADING>
+            <TEXT
+
+    
+
+
+
+________(19) HEADING________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=2)
+<HEADING>Document Retrieval</HEADING>
+
+<HEADING>Past Research</HEADING>
+
+
+
+________(20) TEXT________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=2)
+<TEXT
+               Within IR, DR is an important and proper task with \ldots
+
+<TEXT
+
+             ..to be finished later...
+	     </TEXT>
+
+
+
+________(21) cite________
+  (Star pos. 0, max. elements 2147483647, stored=1, totalNodes=2)
+
+Attribute (21) with equivalent parent (18), taking parents addresses...
+<Error: attribute '@cite' not present>
+
+<Error: attribute '@cite' not present>
+
+
+
+________(22) MONTH________
+  (Star pos. 0, max. elements 2147483647, stored=2, totalNodes=2)
+<MONTH> jul </MONTH>
+
+<MONTH> nov </MONTH>
+
+
+
+
+
+Time: 0:00.223

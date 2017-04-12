@@ -1,0 +1,43 @@
+Stored vs. total # of elements in P-index
+
+Node#	Total	 Stored
+1	1	1
+2	473876	1
+3	473876	1
+4	473876	1
+5	473876	1
+6	473876	1
+7	473876	1
+8	473876	1
+9	67170	48961
+10	443916	11693
+11	473876	1
+12	5673107	473873
+13	473876	1
+14	473876	1
+15	1154138	473876
+16	1154138	473876
+17	2480042	1154138
+18	2480042	1154138
+19	2480042	1154138
+20	2480042	1154138
+21	2480042	1154138
+22	2480042	1154138
+23	3250932	473876
+24	3250932	473876
+25	3250932	473876
+26	7	7
+
+sum(Total)	sum(stored)
+37864285	9828753 (25.957846556458154%)
+Stored = 1, but total > 1:  10
+
+Estimated size at full storage with index.... 218695561
+Estimated size at full storage w/o index..... 116133677
+Estimated stored size........................ 58565331 (%total w/o index = 50.4)
+Estimated stored size without attribs........ 22588446 (%total w/o index = 19.5)
+Avg. posBit length for stored elements....... 25.745283252107363
+Bytes saved due to sparse storage............ 57568346
+Record with worse size as for full storage... 2
+Bytes wasted due to sparse storage............ -60798
+
